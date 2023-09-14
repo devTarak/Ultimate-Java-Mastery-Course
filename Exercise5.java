@@ -65,7 +65,7 @@ class CalculatorOPP{
         return a-b;
     }
     private double Multipication(double a, double b) throws MaxMultiplaierReached{
-        if(a<7000 && b <700) {
+        if(a<7000 && b <7000) {
             return a*b;
         }else {
             try {
@@ -92,7 +92,7 @@ class CalculatorOPP{
 public class Exercise5 {
     public static void main(String[] args) {
         try {
-            CalculatorOPP CO = new CalculatorOPP(50,"*",10);
+            CalculatorOPP CO = new CalculatorOPP(50,"x",700);
         }catch (Exception e){
             System.out.println(e);
         }
