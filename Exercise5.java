@@ -1,19 +1,23 @@
 class invalidInputError extends Exception{
+    @Override
     public String toString(){
         return "Please input a valid operation";
     }
 }
 class DividedByZero extends Exception{
+    @Override
     public String toString(){
         return "Divided by Zero Not Excepted \n Math ERROR Ocared";
     }
 }
 class MaxInputException extends Exception{
+    @Override
     public String toString(){
         return "Not Supported Max Input Exits";
     }
 }
 class MaxMultiplaierReached extends Exception{
+    @Override
     public String toString(){
         return "You can't Multiply more Limit Exixt";
     }
